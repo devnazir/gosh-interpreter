@@ -29,7 +29,7 @@ The $`` syntax executes the shell command within the backticks and stores the ou
 
 To run a Gosh script:
 
-1. `npm install gosh-interpreter`
+1. `npm install gosh-interpreter -g`
 1. Create a .gosh file with your Gosh code.
 2. Run the script using the gosh interpreter:
 ```
