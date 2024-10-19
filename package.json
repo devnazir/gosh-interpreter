@@ -1,5 +1,5 @@
 {
-  "name": "gosh",
+  "name": "gosh-interpreter",
   "version": "1.0.0",
   "description": "Simplify creating scripts with Gosh",
   "bin": {
