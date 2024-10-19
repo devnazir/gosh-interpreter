@@ -1,0 +1,15 @@
+{
+  "name": "gosh",
+  "version": "1.0.0",
+  "description": "Simplify creating scripts with Gosh",
+  "bin": {
+    "gosh": "./bin/gosh"
+  },
+  "scripts": {
+    "build": "go build -o bin/gosh ./bin/gosh.go"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "devnazir",
+  "license": "MIT"
+}

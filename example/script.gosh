@@ -1,0 +1,29 @@
+import "strings"
+
+func helloWorld() {
+  print("Hello, World!")
+}
+
+helloWorld()
+
+ls := $`ls`
+lsSlice := strings.Split(ls, "\n")
+
+for _, file := range lsSlice {
+  print(file)
+}
+
+mkdir("test-folder", 0755)
+cd("test-folder")
+touch("test-folder.txt")
+print($`ls`)
+
+print("Sleeping for 5 second...")
+sleep(5 * time.Second)
+
+print("Done sleeping!")
+
+name := "Nazir"
+name2 := &name
+
+print(name, *name2)
