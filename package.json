@@ -5,6 +5,7 @@
   "bin": {
     "gosh": "./bin/gosh"
   },
+  "main": "bin/gosh.go",
   "scripts": {
     "build": "go build -o bin/gosh ./bin/gosh.go"
   },
