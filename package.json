@@ -9,8 +9,9 @@
   "scripts": {
     "build": "go build -o bin/gosh ./bin/gosh.go"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "devnazir",
   "license": "MIT"
 }
