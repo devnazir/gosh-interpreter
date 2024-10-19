@@ -10,7 +10,7 @@
     "build": "go build -o bin/gosh ./bin/gosh.go"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "devnazir",
   "license": "MIT"
